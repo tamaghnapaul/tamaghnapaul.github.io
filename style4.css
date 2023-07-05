@@ -1,0 +1,545 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 0px solid black;
+}
+
+.left{
+    margin: 0px 0px 0px 0px;
+    padding: 10px;
+    border: 0px solid black;
+}
+
+.middle ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border: 0px solid black;
+    margin-left: 100px;
+    
+}
+
+.middle ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-left: 0px;
+}
+
+.middle ul li a:hover{
+    color: #549D5F;
+}
+
+#active{
+    color: #549D5F;
+}
+
+.right{
+    display: flex;
+    flex-wrap: wrap;
+    border: 0px solid red;
+    background-color: rgb(245, 244, 244);
+    padding: 20px 60px 20px 60px;
+    margin-right: 0px;
+    
+}
+
+.right img{
+    width: 40px;
+    height: 40px;
+    border: 0px solid yellow;
+    margin-right: 40px;
+}
+
+.navcontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* end of navbar */
+/* end of navbar */
+/* end of navbar */
+
+.header{
+    background-image: url('../image/Naturopathy/default-header-img.jpg');
+    padding: 100px;
+    text-align: center;
+    color: #002722;
+    font-size: 22px;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* End of Section 1 */
+/* End of Section 1 */
+/* End of Section 1 */
+
+.section2{
+    background-color: #F8FAFA;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 0px solid black;
+}
+
+.section2content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0px solid black;
+}
+
+.section2content1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 0px solid black;
+    padding-top: 90px;
+    margin-bottom: 50px;
+    /* padding-right: 150px; */
+}
+
+.section2content1 h1{
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    width: 400px;
+}
+
+.section2content1 p{
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 250px;
+    text-align: justify;
+    width: 400px;
+    border: 0px solid black;
+}
+
+.section2content2{
+    border: 0px solid black;
+    /* margin-left: 70px; */
+    padding-right: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.section2content2 ul{
+    list-style-image: url('../image/Naturopathy/vegan1.png');
+    padding-left: 80px;
+    padding-top: 30px;
+    border: 0px solid black;
+    margin-bottom: 40px;
+}
+
+.section2content2 ul li{
+    padding: 10px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.section2content2 p{
+    border: 0px solid black;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+.section2content2 p a{
+    color: white;
+    text-decoration: none;
+    background-color: #549D5F;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px 30px 20px 30px;
+    font-family: "Poppins", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px solid black;
+}
+
+.section2image img{
+    margin-top: 90px;
+    height: auto;
+    border-radius: 40px;
+    margin-bottom: 80px;
+}
+
+/* End of Section 2 */
+/* End of Section 2 */
+/* End of Section 2 */
+
+.section1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-evenly;
+    border: 0px solid black;
+}
+
+.gallery{
+    border: 0px solid black;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.innergallery1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    border: 0px solid black;
+}
+
+.innergallery2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px solid black;
+}
+
+.gallery img{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 50px auto 0 auto;
+    border: 0px solid black;
+}
+
+.imagebackground{
+    background-image: linear-gradient(to bottom right,rgb(180, 180, 72),rgb(49, 117, 49));
+    width: 250px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 20px;
+    border: 0px solid black;
+}
+
+.imagebackground h2{
+    color: white;
+    margin: 40px auto;
+    text-align: center;
+
+}
+
+.section1content{
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    border: 0px solid black;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+
+.section1content img{
+    border: 0px solid black;
+    margin-left: 50px;
+}
+
+.section1content h3{
+    margin-top: 70px;
+    color: rgb(49,117,49);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.section1content h1{
+    margin-top: 20px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+.section1content p{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-bottom: 50px;
+    width: 450px;
+    border: 0px solid black;
+    margin-left: 50px;
+}
+
+#button2{
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+    background-color: #549D5F;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-radius: 45px;
+    font-size: 20px;
+}
+
+/* End of Section 3 */
+/* End of Section 3 */
+/* End of Section 3 */
+
+.section3content2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 0px solid black;
+    height: auto;
+    background-color: #F8FAFA;
+    padding-top: 70px;
+    /* padding-left: 70px; */
+    justify-content: space-evenly;
+}
+
+.section3content2image img{
+    height: 600px;
+    /* width: auto; */
+    margin-bottom: 200px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example1{
+    0%{bottom: 0px;}
+    50%{bottom:20px;}
+    100%{bottom:0px;}
+}
+
+.section3content2side{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    width: 500px;
+    border: 0px solid black;
+    margin-left: 90px;
+    position: relative;
+}
+
+.section3content2side h3{
+    margin-top: 20px;
+    color: #1B1B1B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+.section3content2side h1{
+    margin-top: 20px;
+    font-size: 40px;
+    line-height: 40px;
+    color: #191919;
+    font-family: "Poppins", Sans-serif;
+}
+
+.section3content2side p{
+    margin-top: 20px;
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.section3content2side ol{
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+    list-style-position: inside;
+    border: 0px solid black;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+
+.section3content2side ol li{
+    padding: 30px 0px 30px 70px;
+    color: #282828;
+    font-family: "Poppins", Sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    border: 0px solid black;
+    /* border-bottom: 1px solid gray; */
+}
+
+.section3content2footer{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: linear-gradient(to bottom right,yellow,green);
+    position: absolute;
+    top: 580px;
+    left: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: white;
+}
+
+/* End of Section 4 */
+/* End of Section 4 */
+/* End of Section 4 */
+
+.section9{
+    background: #549d5f;
+    border: 0px solid black;
+    position: relative;
+}
+
+.section9 h1{
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 56px;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    padding: 80px;
+}
+
+.form{
+    position: absolute;
+    bottom: -40px;
+    left: 420px;
+    text-align: center;
+    border: 0px solid red;
+}
+
+input[type=email]{
+    padding: 35px 100px 35px 30px;
+    border-radius: 50px;
+    width: 400px;
+    /* height: 30px; */
+    position: relative;
+    border: 0px;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background: #549d5f;
+    color: #ffffff;
+    padding: 20px 40px;
+    border-radius: 50px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0px;
+}
+
+/* End of Section 5 */
+/* End of Section 5 */
+/* End of Section 5 */
+
+.section10{
+    background-color: #002722;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 0px solid black;
+}
+
+.section10content{
+    margin: 100px 15px 50px 15px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.section10content h2{
+    color: #ffffff;
+    font-size: 26px;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section10content ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.section10content ul li{
+    color: #ffffff;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: "Poppins", Sans-serif;
+}
+
+.imagecontainer1{
+    text-align: center;
+    margin: 50px 0 20px 0; 
+}
+
+#section10content1 p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #ffffff;
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.imagecontainer2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imagecontainer2 img{
+    width: 40px;
+    height: 40px;
+}
+
+#section10content2 p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #ffffff;
+    /* width: 50%; */
+    text-align: center;
+    margin: 30px;
+}
+
+.section10 p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 17px;
+    line-height: 1.75;
+    color: #ffffff;
+    /* width: 50%; */
+    text-align: center;
+
+}
+
+#footer{
+    margin-bottom: 30px;
+}
+
+/* End of Section 6 */
+/* End of Section 6 */
+/* End of Section 5 */

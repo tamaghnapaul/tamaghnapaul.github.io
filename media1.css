@@ -1,0 +1,611 @@
+@media only screen and (max-width: 480px){
+    
+    /* Section1 Modifications */
+    
+    .section1contentimage img{
+        width: 400px;               /*from width:auto to width:400px */
+        display:block;
+        margin:auto;              
+    }
+    
+    .section1content p{         
+        width: 300px;               /*from width:450px to width:350px*/
+        padding: 0px 20px;          /*newly added*/
+    }
+    
+    .section1content h1{
+        padding: 0px 20px;          /*newly added*/
+    }
+
+    .section1content h3{
+        padding: 0px 20px;          /*newly added*/   
+        margin-top: 0px;            /*from margin-top:70px to margin-top:0px*/
+    }
+
+    .section1content{
+        padding-bottom: 30px;       /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    .gallery{
+       padding-bottom: 30px;        /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    .innergallery1{
+        justify-content: center;    /*newly added*/ 
+    }
+
+    .innergallery2{
+        justify-content: center;    /*newly added*/ 
+    }
+
+    
+    /* Section2 Modifications */
+
+    .section2image img{
+        width: 350px;               /*from width:auto to width:350px*/     
+    }
+
+    .section2content2{
+       padding-right: 200px;        /*from padding-right:300px to padding-right:200px*/ 
+    }
+    
+    .section2content2 p a{
+        border-radius: 20px;        /*from border-radius:50px to border-radius:20px*/    
+        padding: 10px;              /*from padding:20px 30px to padding:10px*/ 
+        font-size: 10px;            /*from font-size:18px to font-size:10px*/
+        font-weight: 300;           /*from font-weight:500 to font-weight:300*/
+        
+    }
+
+    .section2content1 h1{
+        width: auto;                            /*from width:400px to width:auto*/
+        padding: 0px 100px 20px 100px;          /*from padding-bottom:20px to padding:0px 100px 20px 100px*/ 
+    }
+
+    .section2content1 p{
+        width: auto;                            /*from width:400px to width:auto*/        
+        margin-top: 10px;                       /*newly added*/ 
+        padding: 0px 100px;                     /*newly added*/
+    }
+
+    .section2content2 ul{
+       padding-left: 100px;         /*from padding-left:80px to padding-left:100px*/ 
+    }
+
+    .section2content2 p{
+       padding-left: 100px;         /*from padding-left:50px to padding-left:100px*/ 
+    }
+
+    
+    
+    /* Section3 Modifications */
+
+    .section3content2image img{
+        width: 350px;               /*from width:auto to width:350px*/
+        margin-bottom: 50px;        /*from margin-bottom:200px to margin-bottom:50px*/
+    }
+
+    .section3content2side{
+        width: 300px;               /*from width:500px to width:350px*/
+        margin-left: 0px;           /*from margin-left:90px to margin-left:0px*/
+        margin-bottom: 50px;        /*from margin-bottom:0px to margin-bottom:50px*/
+    }
+
+    .section3content2side ol{
+        padding: 30px 30px 50px 0px;
+    }
+
+    .section3content2footer{
+        width: 100px;               /*from width:150px to width:100px*/
+        height: 100px;              /*from height:150px to height:100px*/
+        position: absolute;
+        top: 650px;                 /*from top:500px to top:650px*/
+        left: 250px;                /*from left:500px to left:250px*/
+    }
+
+    /* Section4 Modifications */
+
+    .section4contentbackground{
+        margin-bottom: 20px;                        /*from margin:0px 10px to margin-bottom:50px*/
+        margin-left: 50px;                          /*from margin:0px 10px to margin-left:50px*/
+        box-shadow: 2px 2px 2px  lightpink;       /*newly added*/   
+        }
+
+    /* Section5 Modifications */
+
+    .section5{
+        padding-top: 300px;              /*newly added*/ 
+    }
+
+    .section5 h1{
+       padding-left: 25px;              /*newly added*/ 
+    }
+
+    /* Section6 Modifications */
+
+    .section6right img{
+        width: 350px;               /*newly added*/
+    }
+
+    .leftcontainer1 img{
+        margin-top: 30px;           /*newly added*/       
+        margin-right: 20px;
+    }
+
+    .section6left{
+       margin-right: 0px;           /*from margin-right:50px to margin-right:0px*/ 
+       margin: 80px 0 20px 0;       /*from margin:80px 0 100px 0 to margin:80px 0 20px 0*/
+    }
+
+
+    .leftcontainer2{
+       padding-bottom: 50px;        /*newly added*/
+    }
+
+    .section6rightbackground{
+        width: 400px;               /*from width:500px to width:400px*/
+        height: 400px;              /*from width:500px to width:400px*/
+        left: -40px;                /*newly added*/
+    }
+
+    /* Section7 Modifications */
+
+    .section7right{
+       width: 80%;                  /*from width:40% to width:80%*/
+       margin: 20px 0 70px 0;
+    }
+
+    .section7left{
+        margin-bottom: 30px;        /*from margin-bottom:150px to margin-bottom:30px*/   
+        margin-right: 0px;          /*from margin-right:200px to margin-right:400px*/
+    }
+
+    /* Section9 Modifications */
+
+    .form{
+        bottom: -30px;              /*from bottom:-40px to bottom:-30px*/
+        left: 90px;                 /*from left:420px to left:90px*/
+    }
+
+    input[type=email]{
+        padding: 25px 100px 25px 30px;      /*from padding:35px 100px 35px 30px to padding:25px 100px 25px 30px*/
+        width: 200px;                       /*from width:400px to width:200px*/   
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/  
+    }
+
+    input[type=submit]{
+        right: 5px;                         /*from right:15px to right:5px*/
+        top: 5px;                           /*from top:15px to top:5px*/
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/ 
+    }
+
+    /* Section10 Modifications */
+
+    #marginadjust{                                      /* Created new id marginadjust*/
+        margin-top: 30px;                            
+    }
+}
+
+
+@media only screen and (max-width: 600px) and (min-width: 480px){
+
+    /* Section1 Modifications */
+
+    .section1contentimage img{
+        width: 450px;               /*from width:auto to width:400px */
+        display:block;
+        margin:auto;              
+    }
+
+    .section1content h3{
+        margin-top: 0px;            /*from margin-top:70px to margin-top:0px*/
+    }
+
+    .section1content{
+        padding-bottom: 30px;       /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    .gallery{
+        padding-bottom: 30px;        /*from padding-bottom:100px to padding-bottom:30px*/
+     }
+
+     .innergallery1{
+        justify-content: center;    /*newly added*/ 
+    }
+
+    .innergallery2{
+        justify-content: center;    /*newly added*/ 
+    }
+
+    /* Section2 Modifications */
+
+    .section2image img{
+        width: 400px;               /*from width:auto to width:400px*/     
+    }
+
+    .section2content2{
+        padding-right: 200px;        /*from padding-right:300px to padding-right:200px*/ 
+    }
+
+    /* Section3 Modifications */
+
+    .section3content2image img{
+        width: 400px;               /*from width:auto to width:400px*/
+        margin-bottom: 50px;        /*from margin-bottom:200px to margin-bottom:50px*/
+    }
+
+    .section3content2side{
+        width: 400px;               /*from width:500px to width:350px*/
+        margin-left: 0px;           /*from margin-left:90px to margin-left:0px*/
+        margin-bottom: 100px;        /*from margin-bottom:0px to margin-bottom:100px*/
+    }
+
+    .section3content2side ol{
+        padding: 30px 30px 70px 0px;
+    }
+
+    .section3content2footer{
+        width: 120px;               /*from width:150px to width:120px*/
+        height: 120px;              /*from height:150px to height:120px*/
+        position: absolute;
+        top: 650px;                 /*from top:500px to top:650px*/
+        left: 300px;                /*from left:500px to left:230px*/
+    }
+
+    /* Section4 Modifications */
+
+    .section4contentbackground{
+        margin-bottom: 20px;                        /*from margin:0px 10px to margin-bottom:50px*/
+        margin-left: 0px;                          /*from margin:0px 10px to margin-left:0px*/
+        box-shadow: 2px 2px 2px  lightpink;       /*newly added*/   
+        }
+
+    /* Section5 Modifications */
+
+    .section5{
+        padding-top: 300px;              /*newly added*/ 
+    }
+
+    /* Section6 Modifications */
+
+    .section6right img{
+        width: 400px;               /*newly added*/
+    }
+
+    .leftcontainer1 img{
+        margin-top: 30px;           /*newly added*/       
+        margin-right: 20px;
+    }
+
+    .section6left{
+        margin-right: 0px;           /*from margin-right:50px to margin-right:0px*/ 
+        margin: 80px 0 20px 0;       /*from margin:80px 0 100px 0 to margin:80px 0 20px 0*/
+     }
+
+     .leftcontainer2{
+        padding-bottom: 50px;        /*newly added*/
+     }
+
+     .section6rightbackground{
+        width: 450px;               /*from width:500px to width:450px*/
+        height: 450px;              /*from width:500px to width:400px*/
+        left: -40px;                /*newly added*/
+    }
+
+    /* Section7 Modifications */
+
+    .section7right{
+        width: 80%;                  /*from width:40% to width:80%*/
+        margin: 20px 0 70px 0;
+     }
+
+     .section7left{
+        margin-bottom: 30px;        /*from margin-bottom:150px to margin-bottom:30px*/   
+        margin-right: 0px;          /*from margin-right:200px to margin-right:400px*/
+    }
+
+    /* Section9 Modifications */
+
+    .form{
+        bottom: -30px;              /*from bottom:-40px to bottom:-30px*/
+        left: 90px;                 /*from left:420px to left:90px*/
+    }
+
+    input[type=email]{
+        padding: 25px 100px 25px 30px;      /*from padding:35px 100px 35px 30px to padding:25px 100px 25px 30px*/
+        width: 200px;                       /*from width:400px to width:200px*/   
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/  
+    }
+
+    input[type=submit]{
+        right: 5px;                         /*from right:15px to right:5px*/
+        top: 5px;                           /*from top:15px to top:5px*/
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/ 
+    }
+
+    /* Section10 Modifications */
+
+    #marginadjust{                                      /* Created new id marginadjust*/
+        margin-top: 30px;                            
+    }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px){
+
+    /* Section1 Modifications */
+
+    .gallery{
+        padding-bottom: 0px;        /*from padding-bottom:100px to padding-bottom:0px*/
+     }
+
+     .section1content{
+        padding-bottom: 30px;       /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    /* Section3 Modifications */
+
+    .section3content2side{
+        width: 450px;               /*from width:500px to width:450px*/
+        margin-left: 0px;           /*from margin-left:90px to margin-left:0px*/
+        margin-bottom: 100px;       /*from margin-bottom:0px to margin-bottom:50px*/
+    }
+
+    .section3content2side ol{
+        padding: 30px 0px 30px 0px;
+    }
+
+    .section3content2footer{
+        width: 150px;               /*from width:150px to width:100px*/
+        height: 150px;              /*from height:150px to height:100px*/
+        position: absolute;
+        top: 520px;                 /*from top:500px to top:520px*/
+        left: 350px;                /*from left:500px to left:350px*/
+    }
+
+    .section3content2image img{
+        width: 450px;               /*from width:auto to width:450px*/
+        margin-bottom: 50px;        /*from margin-bottom:200px to margin-bottom:50px*/
+    }
+
+    /* Section4 Modifications */
+
+    .section4contentbackground{
+        margin-bottom: 20px;                        /*from margin:0px 10px to margin-bottom:50px*/
+        margin-left: 50px;                          /*from margin:0px 10px to margin-left:50px*/
+        box-shadow: 2px 2px 2px  lightpink;       /*newly added*/   
+        }
+
+    /* Section5 Modifications */
+
+    .section5{
+        padding-top: 300px;              /*newly added*/ 
+    }
+
+    /* Section6 Modifications */
+
+    .section6left{
+        margin-right: 0px;           /*from margin-right:50px to margin-right:0px*/ 
+        margin: 80px 0 20px 0;       /*from margin:80px 0 100px 0 to margin:80px 0 20px 0*/
+     }
+
+     /* Section7 Modifications */
+
+     .section7right{
+        width: 80%;                  /*from width:40% to width:80%*/
+        margin: 20px 0 70px 0;
+     }
+ 
+     .section7left{
+         margin-bottom: 30px;        /*from margin-bottom:150px to margin-bottom:30px*/   
+         margin-right: 0px;          /*from margin-right:200px to margin-right:400px*/
+     }
+
+
+     /* Section9 Modifications */
+
+    .form{
+        bottom: -30px;              /*from bottom:-40px to bottom:-30px*/
+        left: 160px;                 /*from left:420px to left:90px*/
+    }
+
+    input[type=email]{
+        padding: 25px 100px 25px 30px;      /*from padding:35px 100px 35px 30px to padding:25px 100px 25px 30px*/
+        width: 250px;                       /*from width:400px to width:160px*/   
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/  
+    }
+
+    input[type=submit]{
+        right: 5px;                         /*from right:15px to right:5px*/
+        top: 5px;                           /*from top:15px to top:5px*/
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/ 
+    }
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){   
+
+    /* Section1 Modifications */
+   
+    .gallery{
+        padding-bottom: 0px;        /*from padding-bottom:100px to padding-bottom:0px*/
+     }
+
+     .section1content{
+        padding-bottom: 30px;       /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    /* Section3 Modifications */
+
+    .section3content2side{
+        width: 500px;               /*from width:500px to width:450px*/
+        margin-left: 0px;           /*from margin-left:90px to margin-left:0px*/
+        margin-bottom: 100px;       /*from margin-bottom:0px to margin-bottom:50px*/
+    }
+
+    .section3content2side ol{
+        padding: 30px 0px 30px 0px;
+    }
+
+    .section3content2image img{
+        margin-bottom: 50px;        /*from margin-bottom:200px to margin-bottom:50px*/
+    }
+
+    .section3content2footer{
+        width: 150px;               /*from width:150px to width:100px*/
+        height: 150px;              /*from height:150px to height:100px*/
+        position: absolute;
+        top: 500px;                 /*from top:500px to top:520px*/
+        left: 400px;                /*from left:500px to left:350px*/
+    }
+
+    /* Section4 Modifications */
+
+    .section4contentbackground{
+        margin-bottom: 20px;                        /*from margin:0px 10px to margin-bottom:50px*/
+        margin-left: 50px;                          /*from margin:0px 10px to margin-left:50px*/
+        box-shadow: 2px 2px 2px  lightpink;       /*newly added*/   
+        }
+
+    /* Section5 Modifications */
+
+    .section5{
+         padding-top: 300px;              /*newly added*/ 
+    }
+
+    /* Section6 Modifications */
+
+    .section6left{
+        margin-right: 0px;           /*from margin-right:50px to margin-right:0px*/ 
+        margin: 80px 0 20px 0;       /*from margin:80px 0 100px 0 to margin:80px 0 20px 0*/
+     }
+
+
+     /* Section7 Modifications */
+
+     .section7right{
+        width: 80%;                  /*from width:40% to width:80%*/
+        margin: 20px 0 70px 0;
+     }
+ 
+     .section7left{
+         margin-bottom: 30px;        /*from margin-bottom:150px to margin-bottom:30px*/   
+         margin-right: 0px;          /*from margin-right:200px to margin-right:400px*/
+     }
+
+    /* Section9 Modifications */
+
+    .form{
+        bottom: -30px;              /*from bottom:-40px to bottom:-30px*/
+        left: 220px;                 /*from left:420px to left:90px*/
+    }
+
+    input[type=email]{
+        padding: 25px 100px 25px 30px;      /*from padding:35px 100px 35px 30px to padding:25px 100px 25px 30px*/
+        width: 250px;                       /*from width:400px to width:160px*/   
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/  
+    }
+
+    input[type=submit]{
+        right: 5px;                         /*from right:15px to right:5px*/
+        top: 5px;                           /*from top:15px to top:5px*/
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/ 
+    }
+
+    /* Section10 Modifications */
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+
+    /* Section1 Modifications */
+   
+    .gallery{
+        padding-bottom: 0px;        /*from padding-bottom:100px to padding-bottom:0px*/
+     }
+
+     .section1content{
+        padding-bottom: 30px;       /*from padding-bottom:100px to padding-bottom:30px*/
+    }
+
+    /* Section3 Modifications */
+
+    .section3content2side{
+        width: 700px;               /*from width:500px to width:700px*/
+        margin-left: 0px;           /*from margin-left:90px to margin-left:0px*/
+        margin-bottom: 100px;       /*from margin-bottom:0px to margin-bottom:50px*/
+    }
+
+    .section3content2side ol{
+        padding: 30px 0px 30px 0px;
+    }
+
+    .section3content2image img{
+        margin-bottom: 50px;        /*from margin-bottom:200px to margin-bottom:50px*/
+    }
+
+    .section3content2footer{
+        width: 150px;               /*from width:150px to width:100px*/
+        height: 150px;              /*from height:150px to height:100px*/
+        position: absolute;
+        top: 500px;                 /*from top:500px to top:520px*/
+        left: 600px;                /*from left:500px to left:350px*/
+    }
+
+    /* Section4 Modifications */
+
+    .section4contentbackground{
+        margin-bottom: 20px;                        /*from margin:0px 10px to margin-bottom:50px*/
+        margin-left: 50px;                          /*from margin:0px 10px to margin-left:50px*/
+        box-shadow: 2px 2px 2px  lightpink;       /*newly added*/   
+        }
+
+    /* Section5 Modifications */
+
+    .section5{
+         padding-top: 180px;              /*newly added*/ 
+    }
+
+    /* Section6 Modifications */
+
+    .section6left{
+        margin-right: 0px;           /*from margin-right:50px to margin-right:0px*/ 
+        margin: 80px 0 20px 0;       /*from margin:80px 0 100px 0 to margin:80px 0 20px 0*/
+     }
+
+    /* Section7 Modifications */
+
+     .section7right{
+        width: 80%;                  /*from width:40% to width:80%*/
+        margin: 20px 0 70px 0;
+     }
+ 
+     .section7left{
+         margin-bottom: 30px;        /*from margin-bottom:150px to margin-bottom:30px*/   
+         margin-right: 0px;          /*from margin-right:200px to margin-right:400px*/
+     }
+
+    /* Section9 Modifications */
+
+    .form{
+        bottom: -30px;              /*from bottom:-40px to bottom:-30px*/
+        left: 300px;                 /*from left:420px to left:90px*/
+    }
+
+    input[type=email]{
+        padding: 25px 100px 25px 30px;      /*from padding:35px 100px 35px 30px to padding:25px 100px 25px 30px*/
+        width: 250px;                       /*from width:400px to width:160px*/   
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/  
+    }
+
+    input[type=submit]{
+        right: 5px;                         /*from right:15px to right:5px*/
+        top: 5px;                           /*from top:15px to top:5px*/
+        font-size: 10px;                    /*from font-size:20px to font-size:10px*/ 
+    }
+
+
+
+
+
+}
